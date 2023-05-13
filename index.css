@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    /* font-size: 1rem; */
+    /* font-weight: 400; */
+    line-height: 1.5;
+    color: #212529;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+.servicesBannerComponent{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.servicesMainDiv{
+    display: grid;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.collaborate h4{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 24px;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.react-reveal{
+    display: grid;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.react-reveal h2{
+    font-size: 48px;
+    font-family: serif;
+    font-weight: lighter;
+}
+.react-reveal h3{
+    font-size: 20px;
+    font-family: serif;
+    font-weight: lighter;
+}
+a{
+    display: block;
+    gap: 10px;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    display: block;
+    gap: 10px;
+    text-decoration: none;
+    color:rgb(98, 98, 98);
+    padding-right: 20px;
+}
+a p{
+    display: inline;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+a:hover p{
+    display: inline;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 20px;
+}
+a img{
+    margin-left: 10px;    
+}
+a img:hover{
+    margin-left: 20px;    
+    color:rgb(98, 98, 98);
+}
+a:hover img{
+    margin-left: 10px;    
+    color:rgb(98, 98, 98);
+}
+.servicesP-b{
+    width: fit-content;
+}
+.servicesP-b::before,::after{
+    color: black;
+}
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.servicesImageDiv{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.servicesImageDiv img{
+    width: 90%;
+    height: 100%;
+}
+
+.servicesDescription-b{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 80%;
+}
+
+.servicesDescription-b .servicesH2-b{
+    font-style: normal;
+    font-weight: lighter;
+}
+
